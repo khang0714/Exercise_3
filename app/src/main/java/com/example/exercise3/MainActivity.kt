@@ -133,5 +133,6 @@ class MainActivity : AppCompatActivity() {
         //radioButtonMale.setChecked(false)
         //radioButtonFemale.setChecked(false)
         checkBoxSmoker.setChecked(false)
+        textViewPremium.text = resources.getString(R.string.insurance_premium)
     }
 }
